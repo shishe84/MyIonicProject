@@ -10,6 +10,7 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {BasicActionSheetsPage} from "../pages/action-sheets/action-sheets";
+import {BasicAlertsPage} from "../pages/alerts/basic-alerts/basic-alerts";
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {BasicActionSheetsPage} from "../pages/action-sheets/action-sheets";
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    BasicActionSheetsPage
+    BasicActionSheetsPage,
+    BasicAlertsPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import {BasicActionSheetsPage} from "../pages/action-sheets/action-sheets";
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    BasicActionSheetsPage
+    BasicActionSheetsPage,
+    BasicAlertsPage
   ],
   providers: [
     StatusBar,
