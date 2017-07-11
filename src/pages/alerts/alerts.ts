@@ -4,11 +4,20 @@ import { AlertController } from 'ionic-angular';
 
 
 @Component({
-  templateUrl: 'prompt-alerts.html'
+  templateUrl: 'alerts.html'
 })
-export class PromptAlertsPage {
+export class AlertsPage {
 
   constructor(public alertCtrl: AlertController) { }
+
+  doAlert() {
+    let alert = this.alertCtrl.create({
+      title: 'New Friend!',
+      message: 'Your friend, Obi wan Kenobi, just approved your friend request!',
+      buttons: ['Ok']
+    });
+    alert.present()
+  }
 
   showPrompt() {
     let prompt = this.alertCtrl.create({

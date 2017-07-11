@@ -3,10 +3,11 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Prompt Alerts</ion-title>
+    <ion-title>Alerts</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+  <button ion-button block color="dark" (click)="doAlert()">Show Basic Alert</button>
   <button ion-button block color="secondary" (click)="showPrompt()">Show Prompt Alert</button>
 </ion-content>
