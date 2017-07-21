@@ -11,6 +11,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { BasicActionSheetsPage} from "../pages/action-sheets/action-sheets";
 import { AlertsPage} from "../pages/alerts/alerts";
+import { BasicBadgePage } from "../pages/badges/badges";
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AlertsPage} from "../pages/alerts/alerts";
     ItemDetailsPage,
     ListPage,
     BasicActionSheetsPage,
-    AlertsPage
+    AlertsPage,
+    BasicBadgePage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { AlertsPage} from "../pages/alerts/alerts";
     ItemDetailsPage,
     ListPage,
     BasicActionSheetsPage,
-    AlertsPage
+    AlertsPage,
+    BasicBadgePage
   ],
   providers: [
     StatusBar,

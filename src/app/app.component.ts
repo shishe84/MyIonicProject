@@ -6,6 +6,7 @@ import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
 import { BasicActionSheetsPage} from "../pages/action-sheets/action-sheets";
 import { AlertsPage } from "../pages/alerts/alerts";
+import { BasicBadgePage } from "../pages/badges/badges"
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -34,7 +35,8 @@ export class MyApp {
       { title: 'Hello Ionic', component: HelloIonicPage },
       { title: 'My First List', component: ListPage },
       { title: 'Action sheets', component: BasicActionSheetsPage },
-      { title: 'Alerts', component: AlertsPage }
+      { title: 'Alerts', component: AlertsPage },
+      { title: 'Badges', component: BasicBadgePage }
     ];
   }
 
